@@ -1,0 +1,227 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //string password = "root";
+            //string user_password;
+            //Console.WriteLine("Enter password:");
+            //do
+            //{
+            //    user_password = Convert.ToString(Console.ReadLine());
+            //    if (user_password != password) { Console.WriteLine("Error!"); }
+            //    else if (user_password == password) { Console.WriteLine("Accepted!"); }
+            //} while (user_password != password);
+            //Console.Read(); - 16 task c#
+
+            //int duck = 0;
+            //int n = 64;
+            //int r = 4;
+            //int d = 2;
+            //for (int i = 0; i <= 16; i++) { duck = (64 - i * 4) / 2; Console.WriteLine(i + " rabbits and " + duck + " ducks"); }
+            //Console.Read(); - 15 task c#
+
+            //Random rng = new Random();
+            //int number;
+            //int n = 5;
+            //int sum = 0;
+            //Console.WriteLine("Five random numbers:");
+            //for (int i = 1; i <= 5; i++) { number = rng.Next(1,100);Console.WriteLine(number); sum += number; }
+            //Console.WriteLine("Average:"+sum/n);
+            //Console.Read(); - 14 task c#
+
+            //double sum = 0;
+            //int n = 5;
+            //double number;
+            //Console.WriteLine("Enter number:");
+            //for (int i = 1; i <= 5; i++) { number = Convert.ToDouble(Console.ReadLine()); sum =sum + number; }
+            //Console.WriteLine("Average:"+sum/n);
+            //Console.Read(); - 13 task c#
+
+            //int n;
+            //Console.Write("Enter N:");
+            //n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i < n; i++) { Console.WriteLine("Perfect square " + i + " = " + i * i); }
+            //Console.Read(); - 12 task c#
+
+            //int number;
+            //int your_number;
+            //Random rng = new Random();
+            //number = rng.Next(1, 146);
+            //Console.WriteLine("What number is it?");
+            //do
+            //{
+            //    your_number = Convert.ToInt32(Console.ReadLine());
+            //    if (your_number < number) { Console.WriteLine("Your number less, keep going"); }
+            //    else if (your_number > number) { Console.WriteLine("Your_number high, keep going"); } 
+            //    else{ Console.WriteLine("Bingo! You did it!"); };
+            //}
+            //while (your_number != number);
+            //Console.Read(); - 11 task c#
+
+            //int n;
+            //string s;
+            //Console.Write("N=");
+            //s = Console.ReadLine();
+            //n = Convert.ToInt32(s);
+            //for (int i = 1; i <= 20; i++) { Console.WriteLine("N * " + i + " = " + n * i); }
+            //Console.Read(); - 10.1 task c#
+            //int a;
+            //int digit = 0;
+            //Console.Write("Enter number:");
+            //a = Convert.ToInt32(Console.ReadLine());
+            //for (; a > 0;) { a /= 10; digit++; }
+            //Console.WriteLine("Digit:" + digit);
+            //Console.Read(); - 10.2 task c#
+
+            //int a;
+            //string s;
+            //double value;
+            //Console.Write("1.UAH\n");
+            //Console.Write("2.USD\n");
+            //Console.Write("3.EUR\n");
+            //Console.WriteLine("Choose:");
+            //s = Console.ReadLine();
+            //a = Convert.ToInt32(s);
+            //if (a == 1)
+            //{
+            //    Console.Write("You choose UAH. Enter value:");
+            //    s = Console.ReadLine();
+            //    value = Convert.ToDouble(s);
+            //    Console.WriteLine("UAH -> USD:" + value + "-" + Math.Round((value / 24), 2));
+            //    Console.WriteLine("UAH -> EUR:" + value + "-" + Math.Round((value / 30), 2));
+            //}
+            //else if (a == 2)
+            //{
+            //    Console.Write("You choose USD. Enter value:");
+            //    s = Console.ReadLine();
+            //    value = Convert.ToDouble(s);
+            //    Console.WriteLine("USD -> UAH:" + value + "-" + Math.Round((value * 24), 2));
+            //    Console.WriteLine("USD -> EUR:" + value + "-" + Math.Round((value * 0.85), 2));
+            //}
+            //else if (a == 3)
+            //{
+            //    Console.Write("You choose EUR. Enter value:");
+            //    s = Console.ReadLine();
+            //    value = Convert.ToDouble(s);
+            //    Console.WriteLine("EUR -> USD:" + value + "-" + Math.Round((value / 0.85), 2));
+            //    Console.WriteLine("EUR -> UAH:" + value + "-" + Math.Round((value * 30), 2));
+            //}
+            //else { Console.WriteLine("Error"); }
+            //Console.Read(); - 9 task c#
+
+            //int a;
+            //Random rng = new Random();
+            //Console.WriteLine("Enter your bet:");
+            //a = Convert.ToInt32(Console.ReadLine());
+            //int number = rng.Next(1,12);
+            //Console.WriteLine("Your number "+number);
+            //if (number >= 1 && number <= 5) { Console.WriteLine("You lose"); }
+            //else if (number >= 6 && number <= 8) { Console.WriteLine("Your bet is refundable"); }
+            //else if (number >= 9 && number <= 11) { Console.WriteLine("You win " + a * 2); }
+            //else if (number == 12) { Console.WriteLine("You win "+a*10); }
+            //Console.Read(); - 8 task c#
+
+
+            //int a;
+            //string s;
+            //Console.WriteLine("Enter number:");
+            //s = Console.ReadLine();
+            //a = Convert.ToInt32(s);
+            //int count = 2;
+            //while (count < a / 2 + 1) { if (a % count == 0) { Console.Write("Number is not simple"); Console.Read(); return; }count++; }
+            //Console.Write("Number is simple");
+            //Console.Read(); - 7 task c#
+
+            //int km;
+            //int wait;
+            //int sum = 0;
+            //string s_km;
+            //string s_wait;
+            //Console.Write("Enter km:\n");
+            //s_km = Console.ReadLine();
+            //km = Convert.ToInt32(s_km);
+            //Console.Write("Enter wait:\n");
+            //s_wait = Console.ReadLine();
+            //wait = Convert.ToInt32(s_wait);
+            //if (km <= 5) { sum = 20 + wait; }
+            //else { sum = 20 + (km - 5) * 3 - wait; }
+            //Console.WriteLine("You have to pay "+sum+" UAH");
+            //Console.Read(); - 6 task c#
+
+            //int a;
+            //string s;
+            //Console.Write("Enter number day of the week:\n");
+            //s = Console.ReadLine();
+            //a = Convert.ToInt32(s);
+            //if (a == 1) { Console.WriteLine("Monday"); }
+            //else if (a == 2) { Console.WriteLine("Tuesday"); }
+            //else if (a == 3) { Console.WriteLine("Wednesday"); }
+            //else if (a == 4) { Console.WriteLine("Thursday"); }
+            //else if (a == 5) { Console.WriteLine("Friday"); }
+            //else if (a == 6) { Console.WriteLine("Saturday"); }
+            //else if (a == 7) { Console.WriteLine("Sunday"); }
+            //else { if (a == 1) { Console.WriteLine("Error"); }; }
+            //Console.Read(); - 5 task c#
+
+            //int a;
+            //string s;
+            //Console.Write("Enter 0 or 1:\n");
+            //s = Console.ReadLine();
+            //a = Convert.ToInt32(s);
+            //if (a == 1) { Console.WriteLine("Good"); }
+            //else if (a == 0) { Console.WriteLine("Bad"); }
+            //else { Console.WriteLine("Error"); }
+            //Console.Read(); - 4 task c#
+
+            //int a;
+            //string s;
+            //Console.Write("Enter number from 1 to 12:\n");
+            //s = Console.ReadLine();
+            //a = Convert.ToInt32(s);
+            //if (a == 1 || a == 2 || a == 12) { Console.WriteLine("Winter"); }
+            //else if (a == 3 || a == 4 || a == 5) { Console.WriteLine("Spring"); }
+            //else if (a == 6 | a == 7 | a == 8) { Console.WriteLine("Summer"); }
+            //else if (a == 9 | a == 10 | a == 11) { Console.WriteLine("Autmn"); }
+            //else { Console.WriteLine("There is no such time on this planet"); }
+            //Console.Read(); - 3 task c#
+
+            //string c = "Myau";
+            //string d = "Gav";
+            //Console.Write("Write your word:");
+            //string choise = Console.ReadLine();
+            //if (choise == c)
+            //{
+            //    Console.WriteLine("Feed the cat");
+            //}
+            //else if (choise == d)
+            //{
+            //    Console.WriteLine("Walk with dog");
+            //}
+            //else { Console.WriteLine("Error"); };
+            //Console.Read(); - 2 task c#
+
+            //int a;
+            //int b;
+            //string s;
+            //Console.Write("Enter a:");
+            //s = Console.ReadLine();
+            //a = Convert.ToInt32(s);
+            //Console.Write("Enter b:");
+            //s = Console.ReadLine();
+            //b = Convert.ToInt32(s);
+            //if (a > b) { Console.WriteLine("The greatest - " + a); }
+            //else if (b > a) { Console.WriteLine("The greatest - " + b); }
+            //else { Console.WriteLine("The numbers are the same"); }
+            //Console.Read(); - 1 task c#
+
+        }
+    }
+}
